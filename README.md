@@ -24,32 +24,33 @@ library database using a clean and interactive JavaFX UI.
 Java_QA4/
 │
 ├── .vscode/
-│ └── launch.json
-│
-├── lib/
-│ └── mysql-connector-j-8.0.33.jar
+│   └── launch.json
 │
 ├── database/
-│ └── library_db.sql
+│   └── library_db.sql
+│
+├── lib/
+│   └── mysql-connector-j-8.0.33.jar
 │
 ├── src/
-│ ├── app/
-│ │ └── Main.java
-│ │
-│ ├── controller/
-│ │ └── BookController.java
-│ │
-│ ├── model/
-│ │ └── Book.java
-│ │
-│ ├── util/
-│ │ └── DBUtil.java
-│ │
-│ └── view/
-│ └── BookView.java
+│   ├── app/
+│   │   └── Main.java
+│   │
+│   ├── controller/
+│   │   └── BookController.java
+│   │
+│   ├── model/
+│   │   └── Book.java
+│   │
+│   ├── util/
+│   │   └── DBUtil.java
+│   │
+│   └── view/
+│       └── BookView.java
 │
-├── out/
-└── README.md
+├── .gitignore
+├── README.md
+
 
 
 ---
